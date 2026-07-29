@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="699.0" prefWidth="1142.0" style="-fx-background-color: #F2F0EB;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label text="Pesquisar Tarefas:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField style="-fx-background-color: #F54G;" />
+         </children>
+      </VBox>
+   </center>
+   <right>
+      <Button fx:id="emTarefa" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onAction="#aoTarefas" style="-fx-background-color: #2E7D32;" text="+ Nova Tarefa" textFill="WHITE" translateX="-30.0" translateY="-250.0" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+   </right>
+   <top>
+      <Button minWidth="33.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="33.0" style="-fx-background-color: #2E7D32;" text="Voltar" translateX="-500.0" translateY="20.0" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
+   </top>
+</BorderPane>

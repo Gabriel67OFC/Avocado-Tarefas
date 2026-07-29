@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<BorderPane xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gabriel.avocado.controller.HomeController">
+   <center>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="862.0" prefWidth="976.0" style="-fx-background-color: #F8FAFC;">
+         <children>
+            <Text fill="#1f2937" strokeType="OUTSIDE" strokeWidth="0.0" text="Olá, João! " translateX="5.0" translateY="15.0">
+               <font>
+                  <Font name="Garamond" size="31.0" />
+               </font>
+            </Text>
+            <Text fill="#1f2937" strokeType="OUTSIDE" strokeWidth="0.0" text="Vamos ter um dia produtivo. " translateX="5.0" translateY="16.0">
+               <font>
+                  <Font name="Garamond" size="25.0" />
+               </font>
+            </Text>
+            <Line endX="100.0" startX="1100.0" translateY="17.0" />
+            <Label text="Seja-Bem Vindo! " translateX="320.0" translateY="260.0">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </center>
+   <left>
+      <VBox prefHeight="862.0" prefWidth="272.0" style="-fx-background-color: #B5D900;" BorderPane.alignment="CENTER">
+         <children>
+            <Label prefHeight="44.0" prefWidth="179.0" text="Avocad🥑" translateX="40.0" translateY="20.0">
+               <font>
+                  <Font name="Goudy Old Style" size="45.0" />
+               </font>
+            </Label>
+            <FontIcon iconSize="40" style="-fx-icon-code: mdi2h-home;" translateX="10.0" translateY="60.0" wrappingWidth="40.0">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </FontIcon>
+            <Label fx:id="emHome" onDragDetected="#aoVizualizarHome" text="HOME" translateX="65.0" translateY="32.0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="emTarefas" mnemonicParsing="false" onMouseClicked="#aoTarefas" text="Tarefas" translateX="50.0" translateY="60.0" />
+         </children>
+      </VBox>
+   </left>
+</BorderPane>
