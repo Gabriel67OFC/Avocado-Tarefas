@@ -1,12 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
 
 <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <VBox prefHeight="400.0" prefWidth="289.0" />
-      <VBox prefHeight="400.0" prefWidth="316.0" />
+      <VBox prefHeight="400.0" prefWidth="350.0" style="-fx-background-color: #18261B;">
+         <children>
+            <Label text="Bem Vindo de Volta!" textFill="#f7f9f4" translateX="60.0" translateY="120.0">
+               <font>
+                  <Font name="SansSerif Regular" size="20.0" />
+               </font>
+            </Label>
+            <Label text="Já possui uma conta ?" textFill="#f7f9f4" translateX="75.0" translateY="130.0">
+               <font>
+                  <Font name="SansSerif Regular" size="15.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" style="-fx-background-color: #6E8C2B;" text="Fazer Login" textFill="#f7f9f4" translateX="100.0" translateY="150.0">
+               <font>
+                  <Font name="SansSerif Regular" size="15.0" />
+               </font>
+            </Button>
+            <Label prefHeight="206.0" prefWidth="200.0" rotate="4.8" text="🥑" textFill="#6e8c2b" translateX="-30.0" translateY="150.0">
+               <font>
+                  <Font size="200.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox prefHeight="400.0" prefWidth="341.0" style="-fx-background-color: #F7F9F4;">
+         <children>
+            <Label text="Crie a Sua Conta" translateX="70.0" translateY="50.0">
+               <font>
+                  <Font name="SansSerif Regular" size="20.0" />
+               </font>
+            </Label>
+            <TextField promptText="Digite o seu nome:" translateY="90.0">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField promptText="Digite o seu e-mail:" translateY="110.0">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField promptText="Crie uma senha:" translateY="130.0">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField promptText="Confrme a sua senha:" translateY="150.0">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin>
+            </TextField>
+            <Button mnemonicParsing="false" style="-fx-background-color: #18261B;" text="Cadastrar" textFill="#f7f9f4" translateX="110.0" translateY="170.0">
+               <font>
+                  <Font name="SansSerif Regular" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
    </children>
 </HBox>

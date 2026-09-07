@@ -34,7 +34,7 @@
          <children>
             <Label text="LOGIN" textFill="#344139" translateX="115.0" translateY="40.0">
                <font>
-                  <Font name="SansSerif Regular" size="19.0" />
+                  <Font name="SansSerif Regular" size="20.0" />
                </font>
             </Label>
             <TextField promptText="Digite o seu e-mail:" style="-fx-background-color: #FFFCFA;" translateY="90.0">
