@@ -1,4 +1,4 @@
 package com.gabriel.avocado.controller;
 
-public class nome {
+public class CadastroController {
 }
