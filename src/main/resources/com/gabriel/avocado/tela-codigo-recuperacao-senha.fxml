@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F7F9F4;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label text="Enviamos um código de 6 digitos para o seu e-mail." translateX="86.0" translateY="75.0">
+         <font>
+            <Font name="SansSerif Regular" size="18.0" />
+         </font>
+      </Label>
+      <Label text="Digite o código de 6 dígitos: " translateX="190.0" translateY="100.0">
+         <font>
+            <Font name="SansSerif Regular" size="16.0" />
+         </font>
+      </Label>
+      <TextField prefHeight="50.0" prefWidth="21.0" translateX="-150.0" translateY="140.0">
+         <VBox.margin>
+            <Insets left="250.0" right="300.0" />
+         </VBox.margin>
+      </TextField>
+   </children>
+</VBox>

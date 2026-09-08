@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F7F9F4;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label text="Esqueceu sua senha?" translateX="190.0" translateY="60.0">
+         <font>
+            <Font name="SansSerif Regular" size="20.0" />
+         </font>
+      </Label>
+      <Label text="Digite o seu e-mail para recuperar o acesso." translateX="134.0" translateY="90.0">
+         <font>
+            <Font name="SansSerif Regular" size="16.0" />
+         </font>
+      </Label>
+      <TextField promptText="seuemail@gmail.com..." translateY="150.0">
+         <VBox.margin>
+            <Insets left="50.0" right="50.0" />
+         </VBox.margin>
+      </TextField>
+      <Label text="E-mail" translateX="50.0" translateY="105.0">
+         <font>
+            <Font name="SansSerif Regular" size="15.0" />
+         </font>
+      </Label>
+      <Label rotate="4.8" text="🥑" textFill="#6e8c2b" translateX="-20.0" translateY="150.0">
+         <font>
+            <Font size="200.0" />
+         </font>
+      </Label>
+      <Button mnemonicParsing="false" style="-fx-background-color: #18261B;" text="Receber código" textFill="#f7f9f4" translateX="240.0" translateY="-120.0">
+         <font>
+            <Font name="SansSerif Regular" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</VBox>
