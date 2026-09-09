@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label text="Nova senha" translateX="245.0" translateY="50.0">
+         <font>
+            <Font name="SansSerif Regular" size="20.0" />
+         </font>
+      </Label>
+      <Label text="Crie uma nova senha para sua conta." translateX="170.0" translateY="70.0">
+         <font>
+            <Font name="SansSerif Regular" size="16.0" />
+         </font>
+      </Label>
+      <PasswordField promptText="Informe a sua nova senha" translateY="120.0">
+         <VBox.margin>
+            <Insets left="50.0" right="50.0" />
+         </VBox.margin>
+      </PasswordField>
+      <PasswordField promptText="Confirme a sua nova senha " translateY="180.0">
+         <VBox.margin>
+            <Insets left="50.0" right="50.0" />
+         </VBox.margin>
+      </PasswordField>
+      <Label text="Nova senha:" translateX="50.0" translateY="53.0">
+         <font>
+            <Font name="SansSerif Regular" size="12.0" />
+         </font>
+      </Label>
+      <Label text="Confirmar nova senha:" translateX="50.0" translateY="124.0">
+         <font>
+            <Font name="SansSerif Regular" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</VBox>
